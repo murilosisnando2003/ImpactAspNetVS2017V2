@@ -1,6 +1,6 @@
-﻿namespace Capitulo01.Variaveis
+﻿namespace Capitulo01.Troco
 {
-    partial class Form1
+    partial class TrocoForm
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // TrocoForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Name = "TrocoForm";
+            this.Text = "Troco";
+            this.Load += new System.EventHandler(this.TrocoForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

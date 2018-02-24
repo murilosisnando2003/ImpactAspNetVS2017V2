@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capitulo01.Variaveis
+namespace Capitulo01.Troco
 {
-    public partial class Form1 : Form
+    public partial class TrocoForm : Form
     {
-        public Form1()
+        public TrocoForm()
         {
             InitializeComponent();
+        }
+
+        private void TrocoForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

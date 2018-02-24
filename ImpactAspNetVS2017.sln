@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo01.Variaveis", "Capitulo01.Variaveis\Capitulo01.Variaveis.csproj", "{576308FB-D99B-4955-B835-BF03BD7402DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo01.Troco", "Capitulo01.Troco\Capitulo01.Troco.csproj", "{F3222900-A1BA-480F-A541-C2F6565CC370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{576308FB-D99B-4955-B835-BF03BD7402DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{576308FB-D99B-4955-B835-BF03BD7402DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{576308FB-D99B-4955-B835-BF03BD7402DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3222900-A1BA-480F-A541-C2F6565CC370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3222900-A1BA-480F-A541-C2F6565CC370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3222900-A1BA-480F-A541-C2F6565CC370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3222900-A1BA-480F-A541-C2F6565CC370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
