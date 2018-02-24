@@ -29,5 +29,57 @@ namespace Capitulo02.Repeticao.Testes
             }
 
         }
+        [TestMethod]
+        public void ForApenasComCondicaoTeste()
+        {
+            var i = 1;
+            for (; i < 3; )
+            {
+                Console.WriteLine(i++);
+            }
+        }
+        [TestMethod]
+        public void ContinueTeste()
+        {
+            for (int i = 1; i < 10; i++)
+            {
+                if (i<=5)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+            }
+        }
+        [TestMethod]
+        public void BreakTeste()
+        {
+            for (int i = 1; i < 10; i++)
+            {
+                if (i>5)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+        }
+        [TestMethod]
+        public void WhileTeste()
+        {
+            var i = 1;
+
+            while (i<=10)
+            {
+                Console.WriteLine(i++);
+            }
+        }
+        [TestMethod]
+        public void DoWhileTeste()
+        {
+            do
+            {
+                Console.WriteLine("Entrou!");
+            } while (1==2);
+        }
+
     }
 }
