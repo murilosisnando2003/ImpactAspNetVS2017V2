@@ -31,12 +31,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.operacoesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aritmeticasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.resultadoListBox = new System.Windows.Forms.ListBox();
             this.reduzidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incrementaisDecrementaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.boleanasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ternariasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resultadoListBox = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,23 +66,14 @@
             // aritmeticasToolStripMenuItem
             // 
             this.aritmeticasToolStripMenuItem.Name = "aritmeticasToolStripMenuItem";
-            this.aritmeticasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aritmeticasToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.aritmeticasToolStripMenuItem.Text = "&Aritmeticas";
             this.aritmeticasToolStripMenuItem.Click += new System.EventHandler(this.aritmeticasToolStripMenuItem_Click);
-            // 
-            // resultadoListBox
-            // 
-            this.resultadoListBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resultadoListBox.FormattingEnabled = true;
-            this.resultadoListBox.Location = new System.Drawing.Point(0, 24);
-            this.resultadoListBox.Name = "resultadoListBox";
-            this.resultadoListBox.Size = new System.Drawing.Size(449, 313);
-            this.resultadoListBox.TabIndex = 1;
             // 
             // reduzidasToolStripMenuItem
             // 
             this.reduzidasToolStripMenuItem.Name = "reduzidasToolStripMenuItem";
-            this.reduzidasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reduzidasToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.reduzidasToolStripMenuItem.Text = "&Reduzidas";
             this.reduzidasToolStripMenuItem.Click += new System.EventHandler(this.reduzidasToolStripMenuItem_Click);
             // 
@@ -113,6 +104,16 @@
             this.ternariasToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.ternariasToolStripMenuItem.Text = "&Ternarias";
             this.ternariasToolStripMenuItem.Click += new System.EventHandler(this.ternariasToolStripMenuItem_Click);
+            // 
+            // resultadoListBox
+            // 
+            this.resultadoListBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.resultadoListBox.FormattingEnabled = true;
+            this.resultadoListBox.Location = new System.Drawing.Point(0, 24);
+            this.resultadoListBox.Name = "resultadoListBox";
+            this.resultadoListBox.Size = new System.Drawing.Size(449, 313);
+            this.resultadoListBox.TabIndex = 1;
+            this.resultadoListBox.SelectedIndexChanged += new System.EventHandler(this.resultadoListBox_SelectedIndexChanged);
             // 
             // VariaveisForm
             // 

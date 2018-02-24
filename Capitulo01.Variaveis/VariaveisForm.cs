@@ -123,5 +123,10 @@ namespace Capitulo01.Variaveis
                 ano % 4 == 0 ? "Sim" : "Não"));
 
         }
+
+        private void resultadoListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

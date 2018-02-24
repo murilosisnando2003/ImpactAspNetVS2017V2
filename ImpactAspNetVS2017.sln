@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo01.Variaveis", "Cap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo01.Troco", "Capitulo01.Troco\Capitulo01.Troco.csproj", "{F3222900-A1BA-480F-A541-C2F6565CC370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo02.Fretes", "Capitulo02.Fretes\Capitulo02.Fretes.csproj", "{BEDCB535-2B71-46B8-A106-84413E915292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3222900-A1BA-480F-A541-C2F6565CC370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3222900-A1BA-480F-A541-C2F6565CC370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3222900-A1BA-480F-A541-C2F6565CC370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDCB535-2B71-46B8-A106-84413E915292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDCB535-2B71-46B8-A106-84413E915292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDCB535-2B71-46B8-A106-84413E915292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDCB535-2B71-46B8-A106-84413E915292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
