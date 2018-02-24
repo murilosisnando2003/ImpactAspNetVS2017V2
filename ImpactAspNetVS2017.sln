@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo02.Tabuada", "Capit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo02.Repeticao.Testes", "Capitulo02.Repeticao.Testes\Capitulo02.Repeticao.Testes.csproj", "{AFBECDBE-DEEC-4AB8-9FD0-8F195E56B667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Dominio", "Oficina.Dominio\Oficina.Dominio.csproj", "{58A0BD0D-9A88-473A-B512-B487BF0AD630}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AFBECDBE-DEEC-4AB8-9FD0-8F195E56B667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFBECDBE-DEEC-4AB8-9FD0-8F195E56B667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFBECDBE-DEEC-4AB8-9FD0-8F195E56B667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A0BD0D-9A88-473A-B512-B487BF0AD630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A0BD0D-9A88-473A-B512-B487BF0AD630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A0BD0D-9A88-473A-B512-B487BF0AD630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A0BD0D-9A88-473A-B512-B487BF0AD630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
