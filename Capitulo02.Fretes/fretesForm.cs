@@ -14,38 +14,20 @@ namespace Capitulo02.Fretes
     {
         public fretesForm()
         {
+            
             InitializeComponent();
+            
         }
 
         private void calcularButton_Click(object sender, EventArgs e)
         {
-            //Limpar os resultados do cálculo anterior
-            percentualTextBox.Text = string.Empty;
-            totalTextBox.Text = string.Empty;
-            //Consistir os dados
-            if (clienteTextBox.Text.Trim().Equals(""))
+            if (ValidarFormulario())
             {
-                MessageBox.Show("Nome é obrigatório", "Alerta",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                clienteTextBox.Focus();
-                return;
+                         
+                Calcular();
             }
-            else if (valorTextBox.Text.Trim().Equals(""))
-            {
-                MessageBox.Show("Valor da compra é obrigatório", "Alerta",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                valorTextBox.Focus();
-                return;
-            }
-            else if (ufComboBox.Text.Trim().Equals(""))
-            {
-                MessageBox.Show("Selecione um estado na lista", "Alerta",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                ufComboBox.Focus();
-                return;
-            }
-            //Chamar o método Calcular()
-            Calcular();
+            
+            
         
     }
 
@@ -54,8 +36,22 @@ namespace Capitulo02.Fretes
             //Definir variáveis
             decimal valor = 0;
             decimal perc = 0;
-            valor = Convert.ToDecimal(valorTextBox.Text);
 
+            //Chamar o método Calcular()
+            try
+            {
+                Convert.ToDecimal(valorTextBox.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("O campo valor esta com um caracter invalido", "Alerta",
+            MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                valorTextBox.Focus();
+                return;
+            }
+
+            valor = Convert.ToDecimal(valorTextBox.Text);
 
             //Definir o percentual de acordo com o Estado
             switch (ufComboBox.Text.ToUpper())
@@ -71,6 +67,7 @@ namespace Capitulo02.Fretes
                 default:
                     perc = 0.75m; break;
             }
+
             //Devolver na tela o valor da textbox formatado
             valorTextBox.Text = valor.ToString("N2");
             //Devolver na tela o valor do frete calculado
@@ -78,7 +75,7 @@ namespace Capitulo02.Fretes
             totalTextBox.Text = (valor * (1 + perc)).ToString("C2");
         }
 
-        //Definir o método LimparTela() aqui ...
+        //Definir o método LimparTela() aqui...
         private void LimparTela()
         {
             clienteTextBox.Clear();
@@ -92,6 +89,47 @@ namespace Capitulo02.Fretes
         private void fretesForm_Load(object sender, EventArgs e)
         {
             ufComboBox.SelectedIndex = -1;
+        }
+
+        private bool ValidarFormulario()
+        {
+            ////Limpar os resultados do cálculo anterior
+            //Limpar os resultados do cálculo anterior
+            percentualTextBox.Text = string.Empty;
+            totalTextBox.Text = string.Empty;
+            //percentualTextBox.Text = string.Empty;
+            //totalTextBox.Text = string.Empty;
+            //LimparTela();
+            //Consistir os dados
+            if (clienteTextBox.Text.Trim().Equals(""))
+            {
+               var mensagem =  MessageBox.Show("Nome é obrigatório", "Alerta",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                clienteTextBox.Focus();
+                return false;
+            }
+            
+            else if (valorTextBox.Text.Trim().Equals(""))
+            {
+                MessageBox.Show("Valor da compra é obrigatório", "Alerta",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                valorTextBox.Focus();
+                return false;
+            }
+            
+            else if (ufComboBox.Text.Trim().Equals(""))
+            {
+                MessageBox.Show("Selecione um estado na lista", "Alerta",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                ufComboBox.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        private void limparButton_Click(object sender, EventArgs e)
+        {
+            LimparTela();
         }
     }
 }

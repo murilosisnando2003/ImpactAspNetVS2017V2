@@ -39,6 +39,7 @@
             this.calcularButton = new System.Windows.Forms.Button();
             this.totalTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.limparButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -140,11 +141,22 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Total";
             // 
+            // limparButton
+            // 
+            this.limparButton.Location = new System.Drawing.Point(86, 223);
+            this.limparButton.Name = "limparButton";
+            this.limparButton.Size = new System.Drawing.Size(196, 23);
+            this.limparButton.TabIndex = 11;
+            this.limparButton.Text = "Limpar";
+            this.limparButton.UseVisualStyleBackColor = true;
+            this.limparButton.Click += new System.EventHandler(this.limparButton_Click);
+            // 
             // fretesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(341, 294);
+            this.Controls.Add(this.limparButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.calcularButton);
@@ -156,6 +168,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.KeyPreview = true;
             this.Name = "fretesForm";
             this.Text = "Fretes";
             this.Load += new System.EventHandler(this.fretesForm_Load);
@@ -177,6 +190,7 @@
         private System.Windows.Forms.Button calcularButton;
         private System.Windows.Forms.TextBox totalTextBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button limparButton;
     }
 }
 
