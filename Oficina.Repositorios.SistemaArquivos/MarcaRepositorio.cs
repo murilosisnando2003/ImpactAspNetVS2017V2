@@ -5,20 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Oficina.Dominio;
+using System.Configuration;
 
 namespace Oficina.Repositorios.SistemaArquivos
 {
-    public class CorRepositorio
+    public class MarcaRepositorio
     {
 
-        private string _caminhoArquivoMarca = ConfigurationManager.Appsettings["caminhoArquivomarca"]
+        private string _caminhoArquivoMarca = ConfigurationManager.AppSettings["caminhoArquivomarca"];
 
 
         public List<Marca> Selecionar()
         {
             var marcas = new List<Marca>();
 
-            foreach (var linha in File.ReadAllLines_caminhoArquivoMarca))
+            foreach (var linha in File.ReadAllLines(_caminhoArquivoMarca))
             {
                 var propriedades = linha.Split(';');
 
@@ -39,7 +40,7 @@ namespace Oficina.Repositorios.SistemaArquivos
 
             Marca marca = null;
 
-            foreach (var linha in File.ReadAllLines_caminhoArquivoMarca))
+            foreach (var linha in File.ReadAllLines(_caminhoArquivoMarca))
             {
                 var propriedades = linha.Split(';');
 

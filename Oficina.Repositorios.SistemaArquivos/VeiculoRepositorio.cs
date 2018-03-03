@@ -1,18 +1,32 @@
-public class VeiculoRepositorio
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using Oficina.Dominio;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+using System.Configuration;
+
+namespace Oficina.Repositorios.SistemaArquivos
 {
-    private string _caminhoArquivoVeiculo = ConfigurationManager.Appsettings["caminhoArquivoVeiculo"]
-
-    public void Inserir(Veiculo veiculo)
+    public class VeiculoRepositorio
     {
+        private string _caminhoArquivoVeiculo = ConfigurationManager.AppSettings["caminhoArquivoVeiculo"];
 
-        var veiculos = XDocumento.Load(_caminhoArquivoVeiculo);
+        public void Inserir(Veiculo veiculo)
+        {
 
-        var registro = new StringWriter();
-        new XmlSerializer(typeof(Veiculo)).Serialize(registro, veiculo);
+            var veiculos = XDocument.Load(_caminhoArquivoVeiculo);
 
-        veiculos.Root.Add(XElement.Parse(registro.ToString());
+            var registro = new StringWriter();
+            new XmlSerializer(typeof(Veiculo)).Serialize(registro, veiculo);
 
-        veiculos.Save(_caminhoArquivoVeiculo)
+            veiculos.Root.Add(XElement.Parse(registro.ToString()));
 
+            veiculos.Save(_caminhoArquivoVeiculo);
+        }
     }
+    
 }
