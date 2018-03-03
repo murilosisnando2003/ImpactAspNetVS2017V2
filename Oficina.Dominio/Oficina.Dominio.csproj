@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cambio.cs" />
+    <Compile Include="Combustivel.cs" />
+    <Compile Include="Cor.cs" />
+    <Compile Include="Marca.cs" />
+    <Compile Include="Modelo.cs" />
     <Compile Include="Veiculo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
