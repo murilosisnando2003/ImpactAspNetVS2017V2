@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Oficina.Dominio
 {
-    public class Class1
+    public class Veiculo
     {
     }
    
