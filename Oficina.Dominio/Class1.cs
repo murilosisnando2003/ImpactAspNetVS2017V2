@@ -9,8 +9,5 @@ namespace Oficina.Dominio
     public class Class1
     {
     }
-    if (true)
-	{
-        return;
-	}
+   
 }
