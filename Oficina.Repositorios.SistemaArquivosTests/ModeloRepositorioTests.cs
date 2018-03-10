@@ -23,5 +23,11 @@ namespace Oficina.Repositorios.SistemaArquivos.Tests
 
             Assert.IsTrue(modelos.Count != 0);
         }
+
+        [TestMethod()]
+        public void SelecionarTest()
+        {
+            Assert.Fail();
+        }
     }
 }
