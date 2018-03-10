@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oficina", "Oficina", "{5E9E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capitulo06.Http.Testes", "Capitulo06.Http.Testes\Capitulo06.Http.Testes.csproj", "{C9DB7607-E9EB-4396-AD4F-5FA2EB6C9A68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.AspNet", "Oficina.AspNet\Oficina.AspNet.csproj", "{BA6AF908-8017-457C-9604-AF33D4AC53F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{C9DB7607-E9EB-4396-AD4F-5FA2EB6C9A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9DB7607-E9EB-4396-AD4F-5FA2EB6C9A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9DB7607-E9EB-4396-AD4F-5FA2EB6C9A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6AF908-8017-457C-9604-AF33D4AC53F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6AF908-8017-457C-9604-AF33D4AC53F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6AF908-8017-457C-9604-AF33D4AC53F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6AF908-8017-457C-9604-AF33D4AC53F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{58A0BD0D-9A88-473A-B512-B487BF0AD630} = {5E9E379B-9A36-475D-8BFE-D0FCE5C25F1E}
 		{6274A087-AA4C-42F3-8F27-B4923A3A7858} = {5E9E379B-9A36-475D-8BFE-D0FCE5C25F1E}
 		{646BAD35-BB8E-4C67-806A-475780D888E9} = {5E9E379B-9A36-475D-8BFE-D0FCE5C25F1E}
+		{BA6AF908-8017-457C-9604-AF33D4AC53F3} = {5E9E379B-9A36-475D-8BFE-D0FCE5C25F1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7788C0D-1F0A-45F7-8D8D-625A5E0DBB3F}
