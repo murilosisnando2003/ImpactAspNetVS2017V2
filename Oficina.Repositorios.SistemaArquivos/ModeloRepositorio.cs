@@ -18,7 +18,7 @@ namespace Oficina.Repositorios.SistemaArquivos
               
 
               var modelos = new List<Modelo>();
-              var arquivoXml = XDocument.Load(ConfigurationManager.AppSettings["caminhoArquivomodelo"]);
+              var arquivoXml = XDocument.Load(ConfigurationManager.AppSettings["caminhoArquivoModelo"]);
 
             foreach (var elemento in arquivoXml.Descendants("modelo"))
             {

@@ -12,7 +12,7 @@ namespace Oficina.Repositorios.SistemaArquivos
     public class MarcaRepositorio
     {
 
-        private string _caminhoArquivoMarca = ConfigurationManager.AppSettings["caminhoArquivomarca"];
+        private string _caminhoArquivoMarca = ConfigurationManager.AppSettings["caminhoArquivoMarca"];
 
 
         public List<Marca> Selecionar()
