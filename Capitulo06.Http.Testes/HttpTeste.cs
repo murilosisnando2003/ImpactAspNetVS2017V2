@@ -45,7 +45,7 @@ namespace Capitulo06.Http.Testes
             request.ContentLength = bytes.Length;
             request.GetRequestStream().Write(bytes, 0, bytes.Length);
 
-            Console.WriteLine(GetRequestToString(request));
+            Console.WriteLine(value: GetRequestToString(request, dados));
 
             Console.WriteLine(new string('-', 100));
 
@@ -67,7 +67,7 @@ namespace Capitulo06.Http.Testes
                 reader.ReadToEnd();
         }
 
-        private string GetRequestToString(HttpWebRequest request)
+        private string GetRequestToString(HttpWebRequest request, string dados ="")
         {
             var requestLine = $"{request.Method} {request.RequestUri} HTTP/1.1";
 
