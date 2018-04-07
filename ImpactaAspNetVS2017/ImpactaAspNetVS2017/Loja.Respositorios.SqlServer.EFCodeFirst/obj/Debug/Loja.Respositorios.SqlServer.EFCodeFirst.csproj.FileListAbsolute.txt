@@ -8,3 +8,6 @@ C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS20
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\obj\Debug\Loja.Respositorios.SqlServer.EFCodeFirst.csproj.CoreCompileInputs.cache
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\obj\Debug\Loja.Respositorios.SqlServer.EFCodeFirst.dll
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\obj\Debug\Loja.Respositorios.SqlServer.EFCodeFirst.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\bin\Debug\Loja.Respositorios.SqlServer.EFCodeFirst.dll.config
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Respositorios.SqlServer.EFCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
