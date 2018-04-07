@@ -6,3 +6,11 @@ C:\Users\vavelino\source\repos\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServe
 C:\Users\vavelino\source\repos\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\bin\Debug\Pessoal.Dominio.pdb
 C:\Users\vavelino\source\repos\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.dll
 C:\Users\vavelino\source\repos\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\bin\Debug\Pessoal.Repositorios.SqlServer.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\bin\Debug\Pessoal.Repositorios.SqlServer.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\bin\Debug\Pessoal.Dominio.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\bin\Debug\Pessoal.Dominio.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.csprojResolveAssemblyReference.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Pessoal.Repositorios.SqlServer\obj\Debug\Pessoal.Repositorios.SqlServer.pdb
