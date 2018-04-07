@@ -26,7 +26,7 @@
         <tr>
             <td style="width: 100px">Concluida</td>
             <td>
-                <asp:CheckBox ID="CheckBox1" runat="server" />
+                <asp:CheckBox ID="concluidaCheckBox" runat="server" />
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -40,7 +40,7 @@
         </tr>
         <tr>
             <td style="width: 100px"><strong>
-                <asp:Button ID="Button1" runat="server" style="font-weight: bold" Text="Gravar" Width="83px" />
+                <asp:Button ID="gravar" runat="server" style="font-weight: bold" Text="Gravar" Width="83px" OnClick="gravar_Click" />
                 </strong></td>
             <td>
                 <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="ObterPrioridades" TypeName="Pessoal.WebForms.Helper"></asp:ObjectDataSource>

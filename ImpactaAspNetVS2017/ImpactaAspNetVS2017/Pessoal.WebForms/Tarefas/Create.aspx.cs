@@ -1,4 +1,5 @@
 ﻿using Pessoal.Dominio;
+using Pessoal.Repositorios.SqlServer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,4 +21,24 @@ public partial class Tarefas_Create : System.Web.UI.Page
     {
 
     }
+
+
+
+    protected void gravar_Click(object sender, EventArgs e)
+    {
+        
+        var tarefa = new Tarefa();
+        tarefa.Concluida = concluidaCheckBox.Checked;
+        tarefa.Nome = nomeTextBox.Text;
+        tarefa.Obervacao = observacaoTextBox.Text;
+
+        Enum.TryParse(prioridadeDropDownList.SelectedValue,out Prioridade prioridadeSelecionada);
+
+        tarefa.Prioridade = prioridadeSelecionada;
+
+        new TarefaRepositorio().Inserir(tarefa);
+
+        Response.Redirect("Default");
+
+}
 }

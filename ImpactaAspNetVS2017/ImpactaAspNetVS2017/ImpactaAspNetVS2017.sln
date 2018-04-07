@@ -60,6 +60,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pessoal.WebForms", "Pessoal
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loja", "Loja", "{837E38BE-F65E-4B2D-9087-9B71CDB0E89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Dominio", "Loja.Dominio\Loja.Dominio.csproj", "{F6E29C2E-7012-4966-9C12-0DE68C91954B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Respositorios.SqlServer.EFCodeFirst", "Loja.Respositorios.SqlServer.EFCodeFirst\Loja.Respositorios.SqlServer.EFCodeFirst.csproj", "{C827319F-255A-481B-B9DC-39841BCD0440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -132,6 +138,14 @@ Global
 		{A2198213-2D21-4F59-8517-53B93F1638D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2198213-2D21-4F59-8517-53B93F1638D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2198213-2D21-4F59-8517-53B93F1638D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F6E29C2E-7012-4966-9C12-0DE68C91954B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E29C2E-7012-4966-9C12-0DE68C91954B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E29C2E-7012-4966-9C12-0DE68C91954B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E29C2E-7012-4966-9C12-0DE68C91954B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C827319F-255A-481B-B9DC-39841BCD0440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C827319F-255A-481B-B9DC-39841BCD0440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C827319F-255A-481B-B9DC-39841BCD0440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C827319F-255A-481B-B9DC-39841BCD0440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +160,8 @@ Global
 		{0558B46C-1778-4886-9145-8C161181A817} = {97763C78-9A3B-4FC3-9496-54B8F006AD62}
 		{EC02E92B-FD1F-46ED-9305-3F566A29841E} = {97763C78-9A3B-4FC3-9496-54B8F006AD62}
 		{A2198213-2D21-4F59-8517-53B93F1638D1} = {97763C78-9A3B-4FC3-9496-54B8F006AD62}
+		{F6E29C2E-7012-4966-9C12-0DE68C91954B} = {837E38BE-F65E-4B2D-9087-9B71CDB0E89B}
+		{C827319F-255A-481B-B9DC-39841BCD0440} = {837E38BE-F65E-4B2D-9087-9B71CDB0E89B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF2A6197-E629-49E9-9FD2-C73F4BD21901}
