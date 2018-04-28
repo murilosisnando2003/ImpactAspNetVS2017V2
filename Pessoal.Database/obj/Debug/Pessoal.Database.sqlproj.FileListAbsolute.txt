@@ -8,7 +8,3 @@ C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\bin\Debug\Pessoal.Da
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\bin\Debug\Pessoal.Database.pdb
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\Pessoal.Database.dll
 C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\Pessoal.Database.pdb
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\Model.xml
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\refactor.xml
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\postdeploy.sql
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Pessoal.Database\obj\Debug\predeploy.sql

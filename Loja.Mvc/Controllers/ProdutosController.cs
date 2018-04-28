@@ -78,7 +78,9 @@ namespace Loja.Mvc.Controllers
         // GET: Produtos/Create
         public ActionResult Create()
         {
-            return View(Mapear(new Produto()));
+            ViewBag.Title = "Novo Produto";
+
+            return View("~/Views/Produtos/CreateOrEdit.cshtml",Mapear(new Produto()));
         }
 
         // POST: Produtos/Create
@@ -117,6 +119,8 @@ namespace Loja.Mvc.Controllers
         // GET: Produtos/Edit/5
         public ActionResult Edit(int? id)
         {
+
+            ViewBag.Title = "Editar Produto";
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
