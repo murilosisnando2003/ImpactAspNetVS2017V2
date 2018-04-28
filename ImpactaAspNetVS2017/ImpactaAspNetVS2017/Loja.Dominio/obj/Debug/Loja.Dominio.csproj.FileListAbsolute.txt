@@ -1,6 +1,0 @@
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\bin\Debug\Loja.Dominio.dll
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\bin\Debug\Loja.Dominio.pdb
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\obj\Debug\Loja.Dominio.csprojResolveAssemblyReference.cache
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\obj\Debug\Loja.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\obj\Debug\Loja.Dominio.dll
-C:\Users\sa4007\Desktop\ImpactAspNetVS2017\ImpactaAspNetVS2017\ImpactaAspNetVS2017\Loja.Dominio\obj\Debug\Loja.Dominio.pdb

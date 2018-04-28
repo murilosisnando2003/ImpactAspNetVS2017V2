@@ -1,0 +1,77 @@
+07/04/2018 10:52:36	Este log contém informações sobre a operação do esquema importado no projeto 'Pessoal.Database' no computador '3P40_INSTRUTOR' pelo usuário 'vavelino'.
+07/04/2018 10:52:36	A importação do esquema de banco de dados foi iniciada.
+07/04/2018 10:52:43	Coletando opções de banco de dados
+07/04/2018 10:52:43	Coletando usuários
+07/04/2018 10:52:43	Coletando funções
+07/04/2018 10:52:43	Coletando funções de aplicativo
+07/04/2018 10:52:43	Coletando associações de função
+07/04/2018 10:52:43	Coletando grupos de arquivos
+07/04/2018 10:52:43	Coletando catálogos de texto completo
+07/04/2018 10:52:43	Coletando assemblies
+07/04/2018 10:52:43	Coletando certificados
+07/04/2018 10:52:44	Coletando chaves assimétricas
+07/04/2018 10:52:44	Coletando chaves simétricas
+07/04/2018 10:52:44	Coletando chaves simétricas criptografadas
+07/04/2018 10:52:44	Coletando esquemas
+07/04/2018 10:52:44	Coletando coleções de esquema XML
+07/04/2018 10:52:44	Coletando tipos de dados definidos pelo usuário
+07/04/2018 10:52:44	Coletando tipos definidos pelo usuário
+07/04/2018 10:52:44	Coletando tipos de tabela
+07/04/2018 10:52:44	Coletando chaves exclusivas para tipos de tabela
+07/04/2018 10:52:44	Coletando chaves primárias para tipos de tabela
+07/04/2018 10:52:44	Reunindo índices para tipos de tabela
+07/04/2018 10:52:44	Coletando restrições de verificação para tipos de tabela
+07/04/2018 10:52:44	Coletando restrições padrão para tipos de tabela
+07/04/2018 10:52:44	Coletando funções de partição
+07/04/2018 10:52:44	Coletando esquemas de partição
+07/04/2018 10:52:44	Coletando funções
+07/04/2018 10:52:44	Coletando funções criptografadas
+07/04/2018 10:52:44	Coletando agregações
+07/04/2018 10:52:44	Coletando procedimentos
+07/04/2018 10:52:44	Coletando procedimentos criptografados
+07/04/2018 10:52:44	Coletando tabelas
+07/04/2018 10:52:44	Coletando chaves primárias
+07/04/2018 10:52:44	Coletando restrições exclusivas
+07/04/2018 10:52:44	Coletando chaves estrangeiras
+07/04/2018 10:52:44	Coletando restrições padrão
+07/04/2018 10:52:44	Coletando restrições de verificação
+07/04/2018 10:52:44	Coletando exibições
+07/04/2018 10:52:44	Coletando exibições criptografadas
+07/04/2018 10:52:44	Coletando índices
+07/04/2018 10:52:44	Coletando estatísticas
+07/04/2018 10:52:44	Coletando listas de palavras irrelevantes de índice de texto completo
+07/04/2018 10:52:44	Coletando listas de propriedades de pesquisa
+07/04/2018 10:52:44	Coletando propriedades de pesquisa
+07/04/2018 10:52:44	Coletando índices de texto completo
+07/04/2018 10:52:44	Coletando índices de repositório de coluna
+07/04/2018 10:52:44	Coletando índices espaciais
+07/04/2018 10:52:44	Coletando índices XML
+07/04/2018 10:52:44	Reunindo índices XML Seletivos
+07/04/2018 10:52:44	Coletando gatilhos criptografados
+07/04/2018 10:52:44	Coletando gatilhos
+07/04/2018 10:52:44	Coletando gatilhos ddl criptografados e clr
+07/04/2018 10:52:44	Coletando gatilhos ddl
+07/04/2018 10:52:44	Coletando sinônimos
+07/04/2018 10:52:44	Coletando padrões
+07/04/2018 10:52:44	Coletando ligações uddt de restrições de dados
+07/04/2018 10:52:44	Coletando regras
+07/04/2018 10:52:44	Coletando ligações uddt de restrições de dados
+07/04/2018 10:52:44	Coletando tipos de mensagem
+07/04/2018 10:52:44	Coletando filas
+07/04/2018 10:52:44	Coletando contratos
+07/04/2018 10:52:44	Coletando serviços
+07/04/2018 10:52:44	Coletando notificações de eventos
+07/04/2018 10:52:44	Coletando ligações de serviço remoto
+07/04/2018 10:52:44	Coletando prioridades do agente
+07/04/2018 10:52:44	Coletando assinaturas
+07/04/2018 10:52:44	Coletando opções de compactação de dados
+07/04/2018 10:52:44	Coletando tipos de sequência
+07/04/2018 10:52:44	Coletando propriedades estendidas
+07/04/2018 10:52:44	Coletando credenciais
+07/04/2018 10:52:44	Coletando logons
+07/04/2018 10:52:44	Coletando auditorias de servidor
+07/04/2018 10:52:45	Examinando projeto para elementos duplicados
+07/04/2018 10:52:45	Processamento de elementos duplicados concluído
+07/04/2018 10:52:46	Importação do banco de dados concluída.
+07/04/2018 10:52:46	Um resumo da importação foi salvo no seguinte local: C:\Users\vavelino\source\repos\ImpactaAspNetVS2017\Pessoal.Database\Importar Logs de Esquema\Pessoal.Database_20180407015236.log.
+07/04/2018 10:52:46	Clique em Concluir para continuar...
