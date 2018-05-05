@@ -1,0 +1,11 @@
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\Loja.Repositorios.SqlServer.EFModelFirst.dll.config
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\Loja.Repositorios.SqlServer.EFModelFirst.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\Loja.Repositorios.SqlServer.EFModelFirst.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\EntityFramework.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\EntityFramework.xml
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\obj\Debug\Loja.Repositorios.SqlServer.EFModelFirst.csprojResolveAssemblyReference.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\obj\Debug\Loja.Repositorios.SqlServer.EFModelFirst.csproj.CoreCompileInputs.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\obj\Debug\Loja.Repositorios.SqlServer.EFModelFirst.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Loja.Repositorios.SqlServer.EFModelFirst\obj\Debug\Loja.Repositorios.SqlServer.EFModelFirst.pdb

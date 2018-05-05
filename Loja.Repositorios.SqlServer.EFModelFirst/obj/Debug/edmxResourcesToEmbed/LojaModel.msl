@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LojaModelStoreContainer" CdmEntityContainer="LojaModelContainer">
+    <EntitySetMapping Name="Produto">
+      <EntityTypeMapping TypeName="IsTypeOf(LojaModel.Produtos)">
+        <MappingFragment StoreEntitySet="Produto">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Preco" ColumnName="Preco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="IsTypeOf(LojaModel.Categorias)">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FornecedoresSet">
+      <EntityTypeMapping TypeName="IsTypeOf(LojaModel.Fornecedores)">
+        <MappingFragment StoreEntitySet="FornecedoresSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CategoriasProdutos" TypeName="LojaModel.CategoriasProdutos" StoreEntitySet="Produto">
+      <EndProperty Name="Categorias">
+        <ScalarProperty Name="Id" ColumnName="Categoria_Id" />
+      </EndProperty>
+      <EndProperty Name="Produtos">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FornecedoresCategorias" TypeName="LojaModel.FornecedoresCategorias" StoreEntitySet="FornecedoresCategorias">
+      <EndProperty Name="Fornecedores">
+        <ScalarProperty Name="Id" ColumnName="Fornecedores_Id" />
+      </EndProperty>
+      <EndProperty Name="Categorias">
+        <ScalarProperty Name="Id" ColumnName="Categorias_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

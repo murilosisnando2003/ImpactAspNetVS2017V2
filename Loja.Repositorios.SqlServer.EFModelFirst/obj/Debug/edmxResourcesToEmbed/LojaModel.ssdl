@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LojaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="LojaModelStoreContainer">
+    <EntitySet Name="Produto" EntityType="LojaModel.Store.Produto" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Categoria" EntityType="LojaModel.Store.Categoria" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FornecedoresSet" EntityType="LojaModel.Store.FornecedoresSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FornecedoresCategorias" EntityType="LojaModel.Store.FornecedoresCategorias" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CategoriasProdutos" Association="LojaModel.Store.CategoriasProdutos">
+      <End Role="Categorias" EntitySet="Categoria" />
+      <End Role="Produtos" EntitySet="Produto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FornecedoresCategorias_Fornecedores" Association="LojaModel.Store.FK_FornecedoresCategorias_Fornecedores">
+      <End Role="Fornecedores" EntitySet="FornecedoresSet" />
+      <End Role="FornecedoresCategorias" EntitySet="FornecedoresCategorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FornecedoresCategorias_Categorias" Association="LojaModel.Store.FK_FornecedoresCategorias_Categorias">
+      <End Role="Categorias" EntitySet="Categoria" />
+      <End Role="FornecedoresCategorias" EntitySet="FornecedoresCategorias" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Preco" Type="decimal" Nullable="false" Precision="9" Scale="2" />
+    <Property Name="Categoria_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="FornecedoresSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="FornecedoresCategorias">
+    <Key>
+      <PropertyRef Name="Fornecedores_Id" />
+      <PropertyRef Name="Categorias_Id" />
+    </Key>
+    <Property Name="Fornecedores_Id" Type="int" Nullable="false" />
+    <Property Name="Categorias_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CategoriasProdutos">
+    <End Role="Categorias" Type="LojaModel.Store.Categoria" Multiplicity="1" />
+    <End Role="Produtos" Type="LojaModel.Store.Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Produtos">
+        <PropertyRef Name="Categoria_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FornecedoresCategorias_Fornecedores">
+    <End Role="Fornecedores" Type="LojaModel.Store.FornecedoresSet" Multiplicity="1" />
+    <End Role="FornecedoresCategorias" Type="LojaModel.Store.FornecedoresCategorias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fornecedores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FornecedoresCategorias">
+        <PropertyRef Name="Fornecedores_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FornecedoresCategorias_Categorias">
+    <End Role="FornecedoresCategorias" Type="LojaModel.Store.FornecedoresCategorias" Multiplicity="*" />
+    <End Role="Categorias" Type="LojaModel.Store.Categoria" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FornecedoresCategorias">
+        <PropertyRef Name="Categorias_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

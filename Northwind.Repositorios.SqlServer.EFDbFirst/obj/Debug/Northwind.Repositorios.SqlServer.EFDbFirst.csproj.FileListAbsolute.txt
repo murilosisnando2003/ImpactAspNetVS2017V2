@@ -1,0 +1,11 @@
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.dll.config
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.pdb
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\EntityFramework.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\EntityFramework.xml
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\obj\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.csprojResolveAssemblyReference.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\obj\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.csproj.CoreCompileInputs.cache
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\obj\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.dll
+C:\Users\sa4007\Desktop\ImpactAspNetVS2017\Northwind.Repositorios.SqlServer.EFDbFirst\obj\Debug\Northwind.Repositorios.SqlServer.EFDbFirst.pdb

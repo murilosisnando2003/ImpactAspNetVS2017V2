@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="LojaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="LojaModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Produto" EntityType="LojaModel.Produtos" />
+    <EntitySet Name="Categoria" EntityType="LojaModel.Categorias" />
+    <AssociationSet Name="CategoriasProdutos" Association="LojaModel.CategoriasProdutos">
+      <End Role="Categorias" EntitySet="Categoria" />
+      <End Role="Produtos" EntitySet="Produto" />
+    </AssociationSet>
+    <EntitySet Name="FornecedoresSet" EntityType="LojaModel.Fornecedores" />
+    <AssociationSet Name="FornecedoresCategorias" Association="LojaModel.FornecedoresCategorias">
+      <End Role="Fornecedores" EntitySet="FornecedoresSet" />
+      <End Role="Categorias" EntitySet="Categoria" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Produtos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="200" Unicode="true" />
+    <Property Name="Preco" Type="Decimal" Nullable="false" Precision="9" Scale="2" />
+    <NavigationProperty Name="Categoria" Relationship="LojaModel.CategoriasProdutos" FromRole="Produtos" ToRole="Categorias" />
+  </EntityType>
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="200" />
+    <NavigationProperty Name="Produtos" Relationship="LojaModel.CategoriasProdutos" FromRole="Categorias" ToRole="Produtos" />
+    <NavigationProperty Name="Fornecedores" Relationship="LojaModel.FornecedoresCategorias" FromRole="Categorias" ToRole="Fornecedores" />
+  </EntityType>
+  <Association Name="CategoriasProdutos">
+    <End Type="LojaModel.Categorias" Role="Categorias" Multiplicity="1" />
+    <End Type="LojaModel.Produtos" Role="Produtos" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Fornecedores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="200" />
+    <NavigationProperty Name="Categorias" Relationship="LojaModel.FornecedoresCategorias" FromRole="Fornecedores" ToRole="Categorias" />
+  </EntityType>
+  <Association Name="FornecedoresCategorias">
+    <End Type="LojaModel.Fornecedores" Role="Fornecedores" Multiplicity="*" />
+    <End Type="LojaModel.Categorias" Role="Categorias" Multiplicity="*" />
+  </Association>
+</Schema>
